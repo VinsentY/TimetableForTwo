@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/time_table"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="7"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/ly_week_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingRight="1dp" />
+
+    <RelativeLayout
+        android:id="@+id/ly_week_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1"
+        android:paddingRight="1dp" />
+
+    <RelativeLayout
+        android:id="@+id/ly_week_3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1"
+        android:paddingRight="1dp" />
+
+    <RelativeLayout
+        android:id="@+id/ly_week_4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1"
+        android:paddingRight="1dp" />
+
+    <RelativeLayout
+        android:id="@+id/ly_week_5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1"
+        android:paddingRight="1dp" />
+
+    <RelativeLayout
+        android:id="@+id/ly_week_6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1"
+        android:paddingRight="1dp" />
+
+    <RelativeLayout
+        android:id="@+id/ly_week_7"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

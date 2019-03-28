@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Time_Table</string>
+    <string name="day_7">周日</string>
+    <string name="day_6">周六</string>
+    <string name="day_5">周五</string>
+    <string name="day_4">周四</string>
+    <string name="day_3">周三</string>
+    <string name="day_2">周二</string>
+    <string name="day_1">周一</string>
+
+    <dimen name="block_height">48dp</dimen>
+</resources>

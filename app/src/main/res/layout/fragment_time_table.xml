@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_week_1"
+                        style="@style/weekStyle"
+                        android:text="@string/day_1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_week_2"
+                        style="@style/weekStyle"
+                        android:text="@string/day_2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_week_3"
+                        style="@style/weekStyle"
+                        android:text="@string/day_3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_week_4"
+                        style="@style/weekStyle"
+                        android:text="@string/day_4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_week_5"
+                        style="@style/weekStyle"
+                        android:text="@string/day_5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_week_6"
+                        style="@style/weekStyle"
+                        android:text="@string/day_6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_week_7"
+                        style="@style/weekStyle"
+                        android:text="@string/day_7" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:orientation="vertical"
+                    android:paddingRight="6dp">
+
+                    <TextView
+                        style="@style/timeStyle"
+                        android:text="07:50"
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        style="@style/numStyle"
+                        android:text="1"
+                        android:textColor="@color/colorPrimary"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/timeStyle"
+                        android:text="08:40" />
+
+                    <TextView
+                        style="@style/numStyle"
+                        android:text="2"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/timeStyle"
+                        android:text="09:45" />
+
+                    <TextView
+                        style="@style/numStyle"
+                        android:text="3"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/timeStyle"
+                        android:text="10:35" />
+
+                    <TextView
+                        style="@style/numStyle"
+                        android:text="4"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/timeStyle"
+                        android:text="11:25" />
+
+                    <TextView
+                        style="@style/numStyle"
+                        android:text="5"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/timeStyle"
+                        android:text="13:50"
+
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        style="@style/numStyle"
+                        android:text="6"
+                        android:textColor="@color/colorPrimary"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/timeStyle"
+                        android:text="14:40" />
+
+                    <TextView
+                        style="@style/numStyle"
+                        android:text="7"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/timeStyle"
+                        android:text="15:45" />
+
+                    <TextView
+                        style="@style/numStyle"
+                        android:text="8"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/timeStyle"
+                        android:text="16:35" />
+
+                    <TextView
+                        style="@style/numStyle"
+                        android:text="9"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/timeStyle"
+
+                        android:text="17:25" />
+
+                    <TextView
+                        style="@style/numStyle"
+
+                        android:text="10"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/timeStyle"
+
+                        android:text="19:00"
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        style="@style/numStyle"
+                        android:text="11"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/timeStyle"
+                        android:text="19:50" />
+
+                    <TextView
+                        style="@style/numStyle"
+                        android:text="12"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/timeStyle"
+                        android:text="20:40" />
+
+                    <TextView
+                        style="@style/numStyle"
+                        android:text="13"
+
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <include layout="@layout/part_time_table" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        app:backgroundTint="@color/colorPrimary"
+        android:id="@+id/add_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/add"
+        android:layout_margin="16dp"
+        android:elevation="8dp"
+        />
+</FrameLayout>
